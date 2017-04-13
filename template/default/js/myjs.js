@@ -15,8 +15,6 @@ $(document).ready(function() {
 		$(".out",	this).stop().animate({'bottom':	'0px'},		300); // move up - show
 		$(".over",	this).stop().animate({'bottom':	'-60px'},	300); // move up - hide
 	});
-
-	
 });
 
 function getInfo(id) {
