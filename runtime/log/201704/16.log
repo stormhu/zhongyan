@@ -1,5 +1,5 @@
-[ 2017-04-16T22:30:14+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php
-[ log ] local.zhongyan.com/public/index.php [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：1,803.40kb] [文件加载：49]
+[ 2017-04-16T23:03:03+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ log ] local.zhongyan.com/public/ [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,803.20kb] [文件加载：49]
 [ info ] [ LANG ] D:\xampp\htdocs\zhongyan\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
@@ -18,7 +18,6 @@
   'accept-encoding' => 'gzip, deflate',
   'connection' => 'keep-alive',
   'upgrade-insecure-requests' => '1',
-  'cache-control' => 'max-age=0',
 )
 [ info ] [ PARAM ] array (
 )
