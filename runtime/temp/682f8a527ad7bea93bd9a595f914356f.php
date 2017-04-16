@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:30:"../template/default/index.html";i:1491897026;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:30:"../template/default/index.html";i:1492348397;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>

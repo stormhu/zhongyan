@@ -1,17 +1,17 @@
-[ 2017-03-27T11:00:39+08:00 ] 127.0.0.1 127.0.0.1 GET /
-[ log ] local.company.com/ [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,362.46kb] [文件加载：38]
-[ info ] [ LANG ] E:\xampp\htdocs\local.company.com\thinkphp\lang\zh-cn.php
+[ 2017-04-16T22:30:14+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php
+[ log ] local.zhongyan.com/public/index.php [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：1,803.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\zhongyan\thinkphp\lang\zh-cn.php
 [ info ] [ ROUTE ] array (
   'type' => 'module',
   'module' => 
   array (
-    0 => '',
-    1 => NULL,
+    0 => NULL,
+    1 => '',
     2 => NULL,
   ),
 )
 [ info ] [ HEADER ] array (
-  'host' => 'local.company.com',
+  'host' => 'local.zhongyan.com',
   'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
   'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
@@ -22,7 +22,9 @@
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\local.company.com\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\controller\Index->index[ D:\xampp\htdocs\zhongyan\application\controller\Index.php ]
+[ info ] [ VIEW ] ../template/default/index.html [ array (
+) ]
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
