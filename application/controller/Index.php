@@ -19,6 +19,12 @@ class Index extends Controller
         return $this->fetch("../template/default/tuoguan.html");
     }
 
+    public function jianzhan()
+    {
+        return $this->fetch("../template/default/jianzhan.html");
+    }
+
+
     public function header()
     {
     	return $this->fetch("../template/default/header.html");

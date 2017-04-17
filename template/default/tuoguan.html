@@ -28,30 +28,38 @@
 </div>
 <div class="container" style="min-height:300px;">
 	<div class="row">
-		<div class="col-md-12" style="margin-bottom:30px;">
-			<h1 class="text-center animated fadeInLeft " style="">阿里托管</h1>
-			<h5 class="text-center animated fadeInUp">多年金牌淘拍档，专业的技术及优先级的官方数据，以双赢为基本目标为每一位客户提供专业代运营服务！</h5>
+		<div class="col-md-12 box1" style="min-height:500px;">
+			<h1 class="text-center">您是否已经焦头烂额？</h1>
+			<img class="center-block hidden" src="/template/default/image/tuoguan/bg1.png">
 		</div>
-		
+		<div class="col-md-12 box2" style="margin-bottom:30px; ">
+			<h1 class="text-center " style="">以上问题，由我们帮您解决！</h1>
+			<h5 class="text-center">多年金牌淘拍档，专业的技术及优先级的官方数据，以双赢为基本目标为每一位客户提供专业代运营服务！</h5>
+		</div>
 		<div class="col-md-3">
 			<img class="center-block" src="/template/default/image/tuoguan/i1.png">
 			<h5 class="text-center">项目策划</h5>
+			<p class="text-center">产品定位、细分、设计</p>
 		</div>
 		<div class="col-md-3">
 			<img class="center-block" src="/template/default/image/tuoguan/i2.png">
 			<h5 class="text-center">素材整理</h5>
+			<p class="text-center">品牌定位、文化、需求、设计、传播</p>
 		</div>
 		<div class="col-md-3">
 			<img class="center-block" src="/template/default/image/tuoguan/i3.png">
 			<h5 class="text-center">版面设计</h5>
+			<p class="text-center">视觉策划、排版</p>
 		</div>
 		<div class="col-md-3">
 			<img class="center-block" src="/template/default/image/tuoguan/i4.png">
 			<h5 class="text-center">装修实施</h5>
+			<p class="text-center">装修、上架</p>
 		</div>
 		<div class="col-md-3">
 			<img class="center-block" src="/template/default/image/tuoguan/i4.png">
 			<h5 class="text-center">信息优化</h5>
+			<p class="text-center">引流、转化率、销售、客户分析</p>
 		</div>
 	</div>
 </div>
@@ -62,22 +70,22 @@
 </body>
 <script type="text/javascript">
 	var $win = $(window);
-	var temp = 300;
+	var temp = 200;
 	var box1OffsetTop = $(".box1").offset().top;
 	var box2OffsetTop = $(".box2").offset().top;
-	var box3OffsetTop = $(".box3").offset().top;
-	var box4OffsetTop = $(".box4").offset().top;
+	// var box3OffsetTop = $(".box3").offset().top;
+	// var box4OffsetTop = $(".box4").offset().top;
 	// var box5OffsetTop = $(".box5").offset().top;
 	var box1OffsetHeight = $("box1").outerHeight();
 	var box2OffsetHeight = $("box2").outerHeight();
-	var box3OffsetHeight = $("box3").outerHeight();
-	var box4OffsetHeight = $("box4").outerHeight();
+	// var box3OffsetHeight = $("box3").outerHeight();
+	// var box4OffsetHeight = $("box4").outerHeight();
 	// var box5OffsetHeight = $("box5").outerHeight();
 	var winHeight = $win.height();
 	$win.scroll(function(){
 		var winScrollTop = $win.scrollTop();
 		// box1
-		if(!(winScrollTop+200 > box1OffsetTop+box1OffsetHeight) && !(winScrollTop-temp<box1OffsetTop-winHeight) && !($(".box1").hasClass("done"))){
+		if(!(winScrollTop > box1OffsetTop+box1OffsetHeight) && !(winScrollTop-temp<box1OffsetTop-winHeight) && !($(".box1").hasClass("done"))){
 			console.log("box1出现");
 			$(".box1").children("img").removeClass("hidden");
 			$(".box1").children("h3").removeClass("hidden");
@@ -92,22 +100,22 @@
 			$(".box2").children("img").addClass("animated fadeInRight done");
 			$(".box2").children("h3").addClass("animated fadeInRight done");
 		}
-		// box2
-		if(!(winScrollTop > box3OffsetTop+box3OffsetHeight) && !(winScrollTop-temp<box3OffsetTop-winHeight) && !($(".box3").hasClass("done"))){
-			console.log("box3出现");
-			$(".box3").children("img").removeClass("hidden");
-			$(".box3").children("h3").removeClass("hidden");
-			$(".box3").children("img").addClass("animated fadeInLeft done");
-			$(".box3").children("h3").addClass("animated fadeInLeft done");
-		}
-		// box2
-		if(!(winScrollTop > box4OffsetTop+box4OffsetHeight) && !(winScrollTop-temp<box4OffsetTop-winHeight) && !($(".box4").hasClass("done"))){
-			console.log("box4出现");
-			$(".box4").children("img").removeClass("hidden");
-			$(".box4").children("h3").removeClass("hidden");
-			$(".box4").children("img").addClass("animated fadeInRight done");
-			$(".box4").children("h3").addClass("animated fadeInRight done");
-		}
+		// box3
+		// if(!(winScrollTop > box3OffsetTop+box3OffsetHeight) && !(winScrollTop-temp<box3OffsetTop-winHeight) && !($(".box3").hasClass("done"))){
+		// 	console.log("box3出现");
+		// 	$(".box3").children("img").removeClass("hidden");
+		// 	$(".box3").children("h3").removeClass("hidden");
+		// 	$(".box3").children("img").addClass("animated fadeInLeft done");
+		// 	$(".box3").children("h3").addClass("animated fadeInLeft done");
+		// }
+		// box4
+		// if(!(winScrollTop > box4OffsetTop+box4OffsetHeight) && !(winScrollTop-temp<box4OffsetTop-winHeight) && !($(".box4").hasClass("done"))){
+		// 	console.log("box4出现");
+		// 	$(".box4").children("img").removeClass("hidden");
+		// 	$(".box4").children("h3").removeClass("hidden");
+		// 	$(".box4").children("img").addClass("animated fadeInRight done");
+		// 	$(".box4").children("h3").addClass("animated fadeInRight done");
+		// }
 	});
 </script>
 
