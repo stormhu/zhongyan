@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:30:"../template/default/index.html";i:1491897026;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:30:"../template/default/index.html";i:1492419046;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -157,7 +157,7 @@ $(document).ready(function() {
 				<h4 class="text-center" style="color:#fff;">—— 合作伙伴展示，经典案例 ——</h4>
 			</div>
 			<div class="col-md-3" >
-				<div class="box2-com" style="background:url(/template/default/image/box2_001.jpg) no-repeat top center;">
+				<div class="box2-com" style="background:url(/template/default/image/anli/001.jpg) no-repeat top center;">
 					<div class="box2-c-com" >
 						<h4 class="text-center" style="color:#fff">---</h4>
 						<h3 class="text-center" style="color:#fff">德州金利来</h3>
@@ -169,39 +169,39 @@ $(document).ready(function() {
 				<p style="color:#fff;">公司主营机械设备等</p>
 			</div>
 			<div class="col-md-3">
-				<div class="box2-com" style="background:#fff;">
+				<div class="box2-com" style="background:url(/template/default/image/anli/002.jpg) no-repeat top center;">
 					<div class="box2-c-com" >
 						<h4 class="text-center" style="color:#fff">---</h4>
-						<h3 class="text-center" style="color:#fff">德州金利来</h3>
+						<h3 class="text-center" style="color:#fff">德州华翔</h3>
 						<img class="center-block" src="/template/default/image/logo_s.png">
 						<h4 class="text-center" style="color:#fff">技术支持</h4>
 					</div>
 				</div>
-				<h4 class="text-center" style="color:#fff;">德州金利来机械设备有限公司</h4>
+				<h4 class="text-center" style="color:#fff;">德州华翔新材料有限公司</h4>
 				<p style="color:#fff;">公司主营机械设备等</p>
 			</div>
 			<div class="col-md-3 hidden-xs">
-				<div class="box2-com" style="background:#fff;">
+				<div class="box2-com" style="background:url(/template/default/image/anli/003.jpg) no-repeat top center;">
 					<div class="box2-c-com" >
 						<h4 class="text-center" style="color:#fff">---</h4>
-						<h3 class="text-center" style="color:#fff">德州金利来</h3>
+						<h3 class="text-center" style="color:#fff">德州宇涵</h3>
 						<img class="center-block" src="/template/default/image/logo_s.png">
 						<h4 class="text-center" style="color:#fff">技术支持</h4>
 					</div>
 				</div>
-				<h4 class="text-center" style="color:#fff;">德州金利来机械设备有限公司</h4>
+				<h4 class="text-center" style="color:#fff;">德州宇涵中央空调有限公司</h4>
 				<p style="color:#fff;">公司主营机械设备等</p>
 			</div>
 			<div class="col-md-3 hidden-xs">
-				<div class="box2-com" style="background:#fff;">
+				<div class="box2-com" style="background:url(/template/default/image/anli/004.jpg) no-repeat top center;">
 					<div class="box2-c-com" >
 						<h4 class="text-center" style="color:#fff">---</h4>
-						<h3 class="text-center" style="color:#fff">德州金利来</h3>
+						<h3 class="text-center" style="color:#fff">德州旭隆机械</h3>
 						<img class="center-block" src="/template/default/image/logo_s.png">
 						<h4 class="text-center" style="color:#fff">技术支持</h4>
 					</div>
 				</div>
-				<h4 class="text-center" style="color:#fff;">德州金利来机械设备有限公司</h4>
+				<h4 class="text-center" style="color:#fff;">德州市旭隆机械制造有限公司</h4>
 				<p style="color:#fff;">公司主营机械设备等</p>
 			</div>
 		</div>
