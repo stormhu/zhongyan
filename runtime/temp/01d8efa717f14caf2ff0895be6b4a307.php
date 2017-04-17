@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:31:"../template/default/peixun.html";i:1492419938;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:31:"../template/default/peixun.html";i:1492432694;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
