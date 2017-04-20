@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:31:"../template/default/peixun.html";i:1492419938;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:31:"../template/default/peixun.html";i:1492592591;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,33 +21,158 @@
 <!-- <div class="container-fluid" style="background:url(/template/default/image/bg1.jpg) no-repeat top center; height:200px;">
 	
 </div> -->
-<div class="jumbotron" style="background:url(/template/default/image/bg6.jpg) no-repeat top center; height:220px;">
+<div class="jumbotron" style="background:url(/template/default/image/bg6.jpg) no-repeat top center; min-height:220px;">
 	<div class="container">
-		<!-- <h1 class="text-center animated fadeInLeft">电商培训<br><small>让您在互联网上的业绩倍增!!</small></h1> -->
-		<!-- <p class="text-center animated fadeInUp">策略致胜，教您规划企业网络营销顶层设计, 为传统企业转型保驾护航,超过7年网络营销培训经验，服务过420多个细分行业，受训学员高达35894家企业！</p> -->
+		<h1 style="color:#fff">众焱电商6年来专注于网络营销系统落地</h1>
+		<h3 style="color:#fff;"><span style="display:inline-block; width:20px; height:20px; border-radius:20px; background:#fff; margin-right:20px;"></span>授课企业超过1.5万家</h3>
+		<h3 style="color:#fff;"><span style="display:inline-block; width:20px; height:20px; border-radius:20px; background:#fff; margin-right:20px;"></span>服务过的细分市场超过800个</h3>
 	</div>
 </div>
-<div class="container" style="min-height:300px;">
+<div class="container">
+	<div class="row" style="box-shadow:0px 0px 20px #ccc">
+		<div class="col-md-5" style="min-height:80px; border-bottom:5px solid #c30; background:#fff;">
+			<h1 class="text-center">企业互联网转型步骤</h1>
+		</div>
+		<div class="col-md-2" style="min-height:80px;border-bottom:5px solid #c30; background:#fff;"></div>
+		<div class="col-md-5" style="min-height:80px; border-bottom:5px solid #c30; background:#fff;">
+			<h1 class="text-center">电商课程系统</h1>
+		</div>
+		<!-- 一 -->
+		<div class="col-md-5">
+			<div class="center-block" style="width:300px; height:300px; " >
+				<img class="center-block" src="/template/default/image/peixun/x1.png">
+				<h3 class="text-center" style="">第一步:做系统</h3>
+				<h4 class="text-center" style="padding:0px 30px;">明确企业的网络营销战略定位，方向对了就不怕路远，方向不对，努力白费！</h4>
+			</div>
+		</div>
+		<div class="col-md-2 hidden-xs" style="height:300px; background:#eee;">
+			<img style="margin-top:70px;" src="/template/default/image/peixun/p2.png">
+		</div>
+		<div class="col-md-5" style="background:#f5f5f5;">
+			<div class="center-block" style="width:200px; height:100px; margin:100px auto; background:#c30; box-shadow:0px 0px 20px #999; border-radius:50px; background:url(/template/default/image/peixun/p1.png);" >
+				<h2 class="text-center" style="color:#c30; line-height:100px;">战略定位系统</h2>
+			</div>
+		</div>
+		<div class="col-md-12" style="border-bottom:2px dashed #999;"></div>
+		<!-- 二 -->
+		<div class="col-md-5">
+			<div class="center-block" style="width:300px; height:300px;" >
+				<img class="center-block" src="/template/default/image/peixun/x2.png">
+				<h3 class="text-center" style="">第二步:建平台</h3>
+				<h4 class="text-center" style="padding:0px 30px;">建立高转化率的网站，网店，微商城，把流量转化为询盘和订单。</h4>
+			</div>
+		</div>
+		<div class="col-md-2 hidden-xs" style="height:300px; background:#eee;">
+			<img style="margin-top:70px;" src="/template/default/image/peixun/p2.png">
+		</div>
+		<div class="col-md-5" style="background:#f5f5f5;">
+			<div class="center-block" style="width:200px; height:100px; margin:100px auto; background:#c30; box-shadow:0px 0px 20px #999; border-radius:50px; background:url(/template/default/image/peixun/p1.png);" >
+				<h2 class="text-center" style="color:#c30; line-height:100px;">营销转化系统</h2>
+			</div>
+		</div>
+		<div class="col-md-12" style="border-bottom:2px dashed #999;"></div>
+		<!-- 三 -->
+		<div class="col-md-5">
+			<div class="center-block" style="width:300px; height:300px;" >
+				<img class="center-block" src="/template/default/image/peixun/x3.png">
+				<h3 class="text-center" style="">第三步:做推广</h3>
+				<h4 class="text-center" style="padding:0px 30px;">如何低成本，高效率，让目标客户找到我们的网站，网店，微商城。</h4>
+			</div>
+		</div>
+		<div class="col-md-2 hidden-xs" style="height:300px; background:#eee;">
+			<img style="margin-top:70px;" src="/template/default/image/peixun/p2.png">
+		</div>
+		<div class="col-md-5" style="background:#f5f5f5;">
+			<div class="center-block" style="width:200px; height:100px; margin:100px auto; background:#c30; box-shadow:0px 0px 20px #999; border-radius:50px; background:url(/template/default/image/peixun/p1.png);" >
+				<h2 class="text-center" style="color:#c30; line-height:100px;">营销转化系统</h2>
+			</div>
+		</div>
+		<div class="col-md-12" style="border-bottom:2px dashed #999;"></div>
+		<!-- 四 -->
+		<div class="col-md-5">
+			<div class="center-block" style="width:300px; height:300px;" >
+				<img class="center-block" src="/template/default/image/peixun/x4.png">
+				<h3 class="text-center" style="">第四步:建团队</h3>
+				<h4 class="text-center" style="padding:0px 30px;">如何组建团队，检查工作？ 如何对团队进行管理和绩效考核？</h4>
+			</div>
+		</div>
+		<div class="col-md-2 hidden-xs" style="height:300px; background:#eee;">
+			<img style="margin-top:70px;" src="/template/default/image/peixun/p2.png">
+		</div>
+		<div class="col-md-5" style="background:#f5f5f5;">
+			<div class="center-block" style="width:200px; height:100px; margin:100px auto; background:#c30; box-shadow:0px 0px 20px #999; border-radius:50px; background:url(/template/default/image/peixun/p1.png);" >
+				<h2 class="text-center" style="color:#c30; line-height:100px;">执行运营系统</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" style="min-height:168px; background:url(/template/default/image/peixun/p4.png); margin-top:30px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 style="color:#fff;">电商总裁班，您将获得以下权益</h1>
+				<h4 style="color:#fff;">我们知道您要的不仅仅是一个课程</h4>
+				<h4 style="color:#fff;">We know that you want more than just a course</h4>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container" style="margin-top:30px;">
 	<div class="row">
+		<div class="col-md-4" style="margin-bottom:30px;">
+			<div class="center-block" style="width:300px; min-height:300px; box-shadow:0px 0px 30px #aaa; padding:30px 10px;">
+				<img class="center-block" style="margin:10px auto;" src="/template/default/image/peixun/m1.jpg">
+				<h3 class="text-center">《网络营销商业计划书》</h3>
+				<h4 class="text-center">现场老师协助学员完成价值20万元的《网络营销商业计划书</h4>
+				<a href="" class="center-block" style="display:block; text-decoration:none; width:200px; height:50px; text-align:center; background:url(/template/default/image/btn/200x50xb1.png);"><h4 style="color:#c30; line-height:45px;">点击咨询</h4></a>
+			</div>
+		</div>
+		<div class="col-md-4" style="margin-bottom:30px;">
+			<div class="center-block" style="width:300px; min-height:300px; box-shadow:0px 0px 30px #aaa; padding:30px 10px;">
+				<img class="center-block" style="margin:10px auto;" src="/template/default/image/peixun/m2.jpg">
+				<h3 class="text-center">《网络营销商业计划书》</h3>
+				<h4 class="text-center">现场老师协助学员完成价值20万元的《网络营销商业计划书</h4>
+				<a href="" class="center-block" style="display:block; text-decoration:none; width:200px; height:50px; text-align:center; background:url(/template/default/image/btn/200x50xb1.png);"><h4 style="color:#c30; line-height:45px;">点击咨询</h4></a>
+			</div>
+		</div>
+		<div class="col-md-4" style="margin-bottom:30px;">
+			<div class="center-block" style="width:300px; min-height:300px; box-shadow:0px 0px 30px #aaa; padding:30px 10px;">
+				<img class="center-block" style="margin:10px auto;" src="/template/default/image/peixun/m3.jpg">
+				<h3 class="text-center">《网络营销商业计划书》</h3>
+				<h4 class="text-center">现场老师协助学员完成价值20万元的《网络营销商业计划书</h4>
+				<a href="" class="center-block" style="display:block; text-decoration:none; width:200px; height:50px; text-align:center; background:url(/template/default/image/btn/200x50xb1.png);"><h4 style="color:#c30; line-height:45px;">点击咨询</h4></a>
+			</div>
+		</div>
+		<div class="col-md-4" style="margin-bottom:30px;">
+			<div class="center-block" style="width:300px; min-height:300px; box-shadow:0px 0px 30px #aaa; padding:30px 10px;">
+				<img class="center-block" style="margin:10px auto;" src="/template/default/image/peixun/m4.jpg">
+				<h3 class="text-center">《网络营销商业计划书》</h3>
+				<h4 class="text-center">现场老师协助学员完成价值20万元的《网络营销商业计划书</h4>
+				<a href="" class="center-block" style="display:block; text-decoration:none; width:200px; height:50px; text-align:center; background:url(/template/default/image/btn/200x50xb1.png);"><h4 style="color:#c30; line-height:45px;">点击咨询</h4></a>
+			</div>
+		</div>
+		<div class="col-md-4" style="margin-bottom:30px;">
+			<div class="center-block" style="width:300px; min-height:300px; box-shadow:0px 0px 30px #aaa; padding:30px 10px;">
+				<img class="center-block" style="margin:10px auto;" src="/template/default/image/peixun/m5.jpg">
+				<h3 class="text-center">《网络营销商业计划书》</h3>
+				<h4 class="text-center">现场老师协助学员完成价值20万元的《网络营销商业计划书</h4>
+				<a href="" class="center-block" style="display:block; text-decoration:none; width:200px; height:50px; text-align:center; background:url(/template/default/image/btn/200x50xb1.png);"><h4 style="color:#c30; line-height:45px;">点击咨询</h4></a>
+			</div>
+		</div>
+		<div class="col-md-4" style="margin-bottom:30px;">
+			<div class="center-block" style="width:300px; min-height:300px; box-shadow:0px 0px 30px #aaa; padding:30px 10px;">
+				<img class="center-block" style="margin:10px auto;" src="/template/default/image/peixun/m6.jpg">
+				<h3 class="text-center">《网络营销商业计划书》</h3>
+				<h4 class="text-center">现场老师协助学员完成价值20万元的《网络营销商业计划书</h4>
+				<a href="" class="center-block" style="display:block; text-decoration:none; width:200px; height:50px; text-align:center; background:url(/template/default/image/btn/200x50xb1.png);"><h4 style="color:#c30; line-height:45px;">点击咨询</h4></a>
+			</div>
+		</div>
 		<div class="col-md-12" style="margin-bottom:50px;">
-			<h1 class="text-center animated fadeInLeft" style="">电商培训</h1>
-			<p class="text-center animated fadeInUp">策略致胜，教您规划企业网络营销顶层设计, 为传统企业转型保驾护航,超过7年网络营销培训经验，服务过420多个细分行业，受训学员高达35894家企业！</p>
-		</div>
-		<div class="col-md-6 box1" style="min-height:300px; padding-bottom:50px;">
-			<img class="hidden center-block" src="/template/default/image/peixun/icon1.png">
-			<h4 class="hidden text-center">7年网络营销培训经验</h4>
-		</div>
-		<div class="col-md-6 box2" style="min-height:300px; padding-bottom:50px;">
-			<img class="hidden center-block" src="/template/default/image/peixun/icon2.png">
-			<h4 class="hidden text-center">超过20名自身网络营销专家</h4>
-		</div>
-		<div class="col-md-6 box3" style="min-height:300px; padding-bottom:50px;">
-			<img class="hidden center-block" src="/template/default/image/peixun/icon3.png">
-			<h4 class="hidden text-center">服务过420多个细分行业</h4>
-		</div>
-		<div class="col-md-6 box4" style="min-height:300px; padding-bottom:50px;">
-			<img class="hidden center-block" src="/template/default/image/peixun/icon4.png">
-			<h4 class="hidden text-center">陆续培训超过千家企业，为传统企业转型保驾护航！</h4>
+			<div class="center-block" style="width:250px; height:80px; background:#c30;border-radius:50px;">
+				<a href="" style="text-decoration:none;"><h2 style="line-height:80px; text-align:center; color:#fff;">立即报名</h2></a>
+			</div>
 		</div>
 	</div>
 </div>
@@ -56,56 +181,6 @@
 <?php include "../template/default/footer.html"; ?>
 
 </body>
-<script type="text/javascript">
-	var $win = $(window);
-	var temp = 300;
-	var box1OffsetTop = $(".box1").offset().top;
-	var box2OffsetTop = $(".box2").offset().top;
-	var box3OffsetTop = $(".box3").offset().top;
-	var box4OffsetTop = $(".box4").offset().top;
-	// var box5OffsetTop = $(".box5").offset().top;
-	var box1OffsetHeight = $("box1").outerHeight();
-	var box2OffsetHeight = $("box2").outerHeight();
-	var box3OffsetHeight = $("box3").outerHeight();
-	var box4OffsetHeight = $("box4").outerHeight();
-	// var box5OffsetHeight = $("box5").outerHeight();
-	var winHeight = $win.height();
-	$win.scroll(function(){
-		var winScrollTop = $win.scrollTop();
-		// box1
-		if(!(winScrollTop+200 > box1OffsetTop+box1OffsetHeight) && !(winScrollTop-temp<box1OffsetTop-winHeight) && !($(".box1").hasClass("done"))){
-			console.log("box1出现");
-			$(".box1").children("img").removeClass("hidden");
-			$(".box1").children("h4").removeClass("hidden");
-			$(".box1").children("img").addClass("animated fadeInLeft done");
-			$(".box1").children("h4").addClass("animated fadeInLeft done");
-		}
-		// box2
-		if(!(winScrollTop > box2OffsetTop+box2OffsetHeight) && !(winScrollTop-temp<box2OffsetTop-winHeight) && !($(".box2").hasClass("done"))){
-			console.log("box2出现");
-			$(".box2").children("img").removeClass("hidden");
-			$(".box2").children("h4").removeClass("hidden");
-			$(".box2").children("img").addClass("animated fadeInRight done");
-			$(".box2").children("h4").addClass("animated fadeInRight done");
-		}
-		// box2
-		if(!(winScrollTop > box3OffsetTop+box3OffsetHeight) && !(winScrollTop-temp<box3OffsetTop-winHeight) && !($(".box3").hasClass("done"))){
-			console.log("box3出现");
-			$(".box3").children("img").removeClass("hidden");
-			$(".box3").children("h4").removeClass("hidden");
-			$(".box3").children("img").addClass("animated fadeInLeft done");
-			$(".box3").children("h4").addClass("animated fadeInLeft done");
-		}
-		// box2
-		if(!(winScrollTop > box4OffsetTop+box4OffsetHeight) && !(winScrollTop-temp<box4OffsetTop-winHeight) && !($(".box4").hasClass("done"))){
-			console.log("box4出现");
-			$(".box4").children("img").removeClass("hidden");
-			$(".box4").children("h4").removeClass("hidden");
-			$(".box4").children("img").addClass("animated fadeInRight done");
-			$(".box4").children("h4").addClass("animated fadeInRight done");
-		}
-	});
-</script>
 
 </html>
 
