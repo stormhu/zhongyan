@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:30:"../template/default/index.html";i:1492419938;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:30:"../template/default/index.html";i:1492674251;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -28,14 +28,6 @@ $(document).ready(function() {
 		parallax: false,
 	});
 
-	// $("#box3").children(".row").height($("#box3").children(".row").children(".container").height());
-	// $("#box3").children(".row").children(".container").css("left",($("#box3").width()-$("#box3").children(".row").children(".container").width())/2);
-	// $('#box3').children(".row").particleground({
-	// 	dotColor: '#ddd',
-	// 	lineColor: '#ddd',
-	// 	parallax: false,
-	// });
-
 	$(".box2-com").hover(function(){
 		$(".box2-c-com",this).stop().animate({'top': '0px'}, 300);
 	}, function(){
@@ -44,6 +36,8 @@ $(document).ready(function() {
 
 	// box4地图信息
 	ShowMap('116.331481,37.458439', '众焱信息咨询有限公司', '山东省德州市三八东路唐人中心写字楼27层', '400-997-9921', '13305340360', '17');
+
+	$("#nav li").children(".n1").css("color","#c30");
 });
 </script>
 

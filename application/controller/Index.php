@@ -29,4 +29,9 @@ class Index extends Controller
     {
     	return $this->fetch("../template/default/header.html");
     }
+    
+    public function anli()
+    {
+        return $this->fetch("../template/default/anli.html");
+    }
 }
