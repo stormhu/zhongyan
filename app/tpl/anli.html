@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<script type="text/javascript" src="__STATIC__/index/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="__STATIC__/index/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__STATIC__/index/js/myjs.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="__STATIC__/index/css/animate.min.css">
+	<link rel="stylesheet" href="__STATIC__/index/css/bootstrap.min.css">
+	<link rel="stylesheet" href="__STATIC__/index/css/style.css">
+
+	<title>案例展示-</title>
+</head>
+<body style="overflow-x:hidden;">
+<!-- header区 -->
+<?php include APP_PATH."/tpl/header.html" ?>
+
+<div class="jumbotron" style="background:url(__STATIC__/index/image/anli/p1.png) no-repeat top center; min-height:168px;">
+	<div class="container">
+		<h1 class="text-center" style="color:#fff;">建站案例展示</h1>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="thumbnail">
+				<img src="__STATIC__/index/image/anli/j1.jpg">
+				<div class="caption">
+					<h3>金利来</h3>
+					<h4>公司名称：德州金利来机械设备有限公司</h4>
+					<a class="btn btn-default" data-toggle="modal" data-target="#jinlilai">查看详情</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="thumbnail">
+				<img src="__STATIC__/index/image/anli/j3.jpg">
+				<div class="caption">
+					<h3>建筑装饰</h3>
+					<h4>公司名称：昆山建筑装饰工程有限公司</h4>
+					<a class="btn btn-default" data-toggle="modal" data-target="#jianzhu">查看详情</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="thumbnail">
+				<img src="__STATIC__/index/image/anli/j2.jpg">
+				<div class="caption">
+					<h3>美京电器</h3>
+					<h4>公司名称：上海美京电器有限公司</h4>
+					<a class="btn btn-default" data-toggle="modal" data-target="#meijing">查看详情</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="thumbnail">
+				<img src="__STATIC__/index/image/anli/j4.jpg">
+				<div class="caption">
+					<h3>海鸥起重</h3>
+					<h4>公司名称：常熟海鸥起重机械有限公司</h4>
+					<a class="btn btn-default" data-toggle="modal" data-target="#haiou">查看详情</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="thumbnail">
+				<img src="__STATIC__/index/image/anli/j5.jpg">
+				<div class="caption">
+					<h3>海特尔</h3>
+					<h4>公司名称：江苏海特尔机械有限公司</h4>
+					<a class="btn btn-default" data-toggle="modal" data-target="#haiteer">查看详情</a>
+				</div>
+			</div>
+		</div>
+		
+		
+	</div>
+</div>
+
+<div class="jumbotron" style="background:url(__STATIC__/index/image/anli/p1.png) no-repeat top center; min-height:168px;">
+	<div class="container">
+		<h1 class="text-center" style="color:#fff;">阿里托管展示</h1>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="thumbnail">
+				<img src="__STATIC__/index/image/anli/a1.jpg">
+				<div class="caption">
+					<h3>中牧孵化</h3>
+					<h4>公司全称：德州市德城区中牧孵化设备厂</h4>
+					<a class="btn btn-default" data-toggle="modal" data-target="#zhongmu">查看详情</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="thumbnail">
+				<img src="__STATIC__/index/image/anli/a2.jpg">
+				<div class="caption">
+					<h3>华翔新材料</h3>
+					<h4>公司全称：德州华翔新材料科技有限公司</h4>
+					<a class="btn btn-default" data-toggle="modal" data-target="#huaxiang">查看详情</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="thumbnail">
+				<img src="__STATIC__/index/image/anli/a3.jpg">
+				<div class="caption">
+					<h3>宇涵中央空调</h3>
+					<h4>公司全称：德州宇涵中央空调有限公司</h4>
+					<a class="btn btn-default" data-toggle="modal" data-target="#yuhan">查看详情</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="thumbnail">
+				<img src="__STATIC__/index/image/anli/a4.jpg">
+				<div class="caption">
+					<h3>旭隆机械</h3>
+					<h4>公司全称：德州市旭隆机械制造有限公司</h4>
+					<a class="btn btn-default" data-toggle="modal" data-target="#xulong">查看详情</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade bs-example-modal-lg" id="jinlilai" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">金利来</h4>
+			</div>
+			<div class="modal-body">
+				<img style="width:100%;" src="__STATIC__/index/image/anli/j11.jpg">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade bs-example-modal-lg" id="jianzhu" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">建筑装饰</h4>
+			</div>
+			<div class="modal-body">
+				<img style="width:100%;" src="__STATIC__/index/image/anli/j22.jpg">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade bs-example-modal-lg" id="meijing" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">美京电器</h4>
+			</div>
+			<div class="modal-body">
+				<img style="width:100%;" src="__STATIC__/index/image/anli/j33.jpg">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade bs-example-modal-lg" id="haiou" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">海鸥起重</h4>
+			</div>
+			<div class="modal-body">
+				<img style="width:100%;" src="__STATIC__/index/image/anli/j44.jpg">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade bs-example-modal-lg" id="haiteer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">海特尔</h4>
+			</div>
+			<div class="modal-body">
+				<img style="width:100%;" src="__STATIC__/index/image/anli/j22.jpg">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 中牧孵化 -->
+<div class="modal fade bs-example-modal-lg" id="zhongmu" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">中牧孵化</h4>
+			</div>
+			<div class="modal-body">
+				<img style="width:100%;" src="__STATIC__/index/image/anli/a11.jpg">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 华翔新材料 -->
+<div class="modal fade bs-example-modal-lg" id="huaxiang" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">华翔新材料</h4>
+			</div>
+			<div class="modal-body">
+				<img style="width:100%;" src="__STATIC__/index/image/anli/a22.jpg">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 宇涵空调 -->
+<div class="modal fade bs-example-modal-lg" id="yuhan" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">宇涵空调</h4>
+			</div>
+			<div class="modal-body">
+				<img style="width:100%;" src="__STATIC__/index/image/anli/a33.jpg">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 旭隆机械 -->
+<div class="modal fade bs-example-modal-lg" id="xulong" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">旭隆机械</h4>
+			</div>
+			<div class="modal-body">
+				<img style="width:100%;" src="__STATIC__/index/image/anli/a44.jpg">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- footer -->
+<?php include APP_PATH."/tpl/footer.html"; ?>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#nav li").children(".n5").css("color","#c30");
+	});
+</script>
+</html>
+
+
+
