@@ -5,9 +5,9 @@
 			<div class="col-md-3">
 				<h4 style="color:#ddd;margin-left:20px;">服务</h4>
 				<div style="border-bottom:1px solid #c30; margin:20px;"></div>
-				<p style="margin-left:20px;"><a style="color:#ddd;" href="">电商培训</a></p>
-				<p style="margin-left:20px;"><a style="color:#ddd;" href="">电商托管</a></p>
-				<p style="margin-left:20px;"><a style="color:#ddd;" href="">网站建设</a></p>
+				<p style="margin-left:20px;"><a style="color:#ddd;" href="/index/peixun">电商培训</a></p>
+				<p style="margin-left:20px;"><a style="color:#ddd;" href="/index/tuoguan">电商托管</a></p>
+				<p style="margin-left:20px;"><a style="color:#ddd;" href="/index/jianshe">网站建设</a></p>
 			</div>
 			<!-- <div class="col-md-3">
 				<h4 style="color:#ddd;margin-left:20px;">案例</h4>
@@ -16,9 +16,6 @@
 			<div class="col-md-3">
 				<h4 style="color:#ddd;margin-left:20px;">合作伙伴</h4>
 				<div style="border-bottom:1px solid #c30; margin:20px;"></div>
-				<!-- <p style="margin-left:20px;"><a style="color:#ddd;" href="">金利来机械</a></p>
-				<p style="margin-left:20px;"><a style="color:#ddd;" href="">喜地空调</a></p>
-				<p style="margin-left:20px;"><a style="color:#ddd;" href="">我们的团队</a></p> -->
 				<img style="margin-left:20px;margin-bottom:10px; width:60px;" src="__STATIC__/index/image/logo_s.png">
 				<img style="margin-left:20px;margin-bottom:10px; width:60px;" src="__STATIC__/index/image/logo/logo_xidi.png">
 				<img style="margin-left:20px;margin-bottom:10px; width:60px;" src="__STATIC__/index/image/logo/logo_zongheng.png">
@@ -28,18 +25,15 @@
 			<div class="col-md-3">
 				<h4 style="color:#ddd;margin-left:20px;">联系我们</h4>
 				<div style="border-bottom:1px solid #c30; margin:20px;"></div>
-				<p style="margin-left:20px;"><a style="color:#ddd;" href="">热线：400-997-9921</a></p>
-				<p style="margin-left:20px;"><a style="color:#ddd;" href="">手机：13305340360</a></p>
-				<p style="margin-left:20px;"><a style="color:#ddd;" href="">地址：山东省德州市三八东路唐人中心写字楼27层</a></p>
-				<!-- <img style="margin-left:20px;width:100px;" src="__STATIC__/index/image/erweima.jpg"> -->
+				<p style="margin-left:20px;"><a style="color:#ddd;" href="tencent://message/?uin=785388702">合作客服</a><a style="margin-left:20px; color:#ddd;" href="tencent://message/?uin=2765396189">售后客服</a><a style="margin-left:20px; color:#ddd;" href="tencent://message/?uin=2832924384">技术客服</a></p>
+				<p style="margin-left:20px;"><a style="color:#ddd;" >热线：400-997-9921</a></p>
+				<p style="margin-left:20px;"><a style="color:#ddd;" >手机：13305340360</a></p>
+				<p style="margin-left:20px;"><a style="color:#ddd;" >地址：山东省德州市三八东路唐人中心写字楼27层</a></p>
 				
 			</div>
 			<div class="col-md-3">
 				<h4 style="color:#ddd;margin-left:20px;">关注我们</h4>
 				<div style="border-bottom:1px solid #c30; margin:20px;"></div>
-				<!-- <p style="margin-left:20px;"><a style="color:#ddd;" href="">热线：400-997-9921</a></p>
-				<p style="margin-left:20px;"><a style="color:#ddd;" href="">手机：13305340360</a></p>
-				<p style="margin-left:20px;"><a style="color:#ddd;" href="">地址：山东省德州市三八东路唐人中心写字楼27层</a></p> -->
 				<img style="margin-left:20px;width:100px;" src="__STATIC__/index/image/erweima.jpg">
 				
 			</div>
@@ -51,4 +45,36 @@
 			<h5 class="text-center" style="color:#999;">备案：鲁ICP备14020841号-3</h5>
 		</div>
 	</div>
+
+	<!-- 右侧悬浮框 begin -->
+	<div class="float" style="position:fixed; width:60px; bottom:50px; right:30px;">
+		<div class="zixun">
+			
+		</div>
+		<div class="erweima">
+			<a href=""><img src="__STATIC__/index/image/erweima.png"></a>
+			<img class="erweimaimg" style="position:fixed; width:150px; height:150px; bottom:50px; right:100px; visibility:hidden" src="__STATIC__/index/image/erweima.jpg">
+		</div>
+		<div class="gotop" style="">
+			<a style="cursor:pointer;"><img src="__STATIC__/index/image/top.png"></a>
+		</div>
+	</div>
+	<!-- 右侧悬浮框 end -->
 </div>
+
+<script type="text/javascript">
+	$(".erweima a").mouseover(function(){
+		$(".erweimaimg").css("visibility","visible");
+		$(".erweimaimg").removeClass("animated fadeOutUp");
+		$(".erweimaimg").addClass("animated fadeInUp");
+	});
+	$(".erweima").mouseout(function(){
+		$(".erweimaimg").removeClass("animated fadeInUp")
+		$(".erweimaimg").addClass("animated fadeOutUp");
+	});
+	$(".gotop a").click(function(){
+		$("body,html").animate({scrollTop:0},500);
+
+	});
+
+</script>
